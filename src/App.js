@@ -11,8 +11,8 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path="/Map" component={MapBox} />
-          <Route exact path="/Tracker" component={Tracker} />
+          <Route path="/Map" component={MapBox} />
+          <Route path="/Tracker" component={Tracker} />
         </Switch>
       </div>
     </Router>
