@@ -12,7 +12,7 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/Map" component={MapBox} />
-          <Route exact path="/" component={Tracker} />
+          <Route exact path="/Tracker" component={Tracker} />
         </Switch>
       </div>
     </Router>
