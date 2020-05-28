@@ -19,10 +19,10 @@ function Nav() {
         </button>
           <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="collapsibleNavbar">
             <ul class="navbar-nav">
-              <Link class="nav-link"  to='/Tracker'>
+              <Link class="nav-link"  to='/covid19/Tracker'>
                 <li class="nav-item">Tracker</li>
               </Link>
-              <Link class="nav-link" to='/Map'>
+              <Link class="nav-link" to='/covid19/Map'>
                 <li class="nav-item">Map</li>
               </Link>
             </ul> 
