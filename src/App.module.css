@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8px;
+  background:#353B3C;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+ul {
+  list-style: none;
+}
