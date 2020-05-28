@@ -45,7 +45,7 @@ function MapBox() {
       });
 
       // Add navigation controls to the top right of the canvas
-      map.addControl(new mapboxgl.NavigationControl());
+      map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
       map.once('load', function () {
         // Add our SOURCE
