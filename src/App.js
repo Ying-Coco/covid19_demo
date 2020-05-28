@@ -3,7 +3,7 @@ import "./App.module.css";
 import Nav from "./Nav";
 import MapBox from "./components/Map/Map";
 import Tracker from "./components/Tracker";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
