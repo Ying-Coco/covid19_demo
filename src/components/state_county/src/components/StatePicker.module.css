@@ -1,0 +1,14 @@
+.FormControl{
+    width:70%;
+    margin-bottom: 10px !important;
+    float: left !important;
+    
+}
+
+option{
+    font-size: large;
+    font-weight: bold;
+    width: auto;
+}
+
+

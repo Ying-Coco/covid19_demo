@@ -1,0 +1,37 @@
+body{
+    background-color: #EEF0F2;
+    overflow: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media(max-width:770px){
+    .container{
+        margin:0 10%;
+    }
+}
+
+.containDiv{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
+
+
+.selectRight{
+    float: right !important;
+    margin-right: 280px;
+}
+
+.selectLeft{
+    float: Left !important;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+

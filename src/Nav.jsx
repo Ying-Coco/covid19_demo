@@ -22,9 +22,13 @@ function Nav() {
               <Link class="nav-link"  to='/Tracker'>
                 <li class="nav-item">Tracker</li>
               </Link>
+              <Link class="nav-link" to='/CountyState'>
+                <li class="nav-item">State & County</li>
+              </Link>
               <Link class="nav-link" to='/Map'>
                 <li class="nav-item">Map</li>
               </Link>
+              
             </ul> 
         </div>
         <div class="navbar-collapse collapse order-3 dual-collapse2" id="collapsibleNavbar">

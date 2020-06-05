@@ -18,9 +18,9 @@ const CountryPicker = ({handleCountryChange}) => {
 
   return (
     <FormControl className={styles.FormControl}>
-      <NativeSelect defaultValue="" style={{width:"300px"}} onChange={(e) => handleCountryChange(e.target.value)}>
-        <option value="" style={{textalign:"center"}}>Global</option>
-        {fetchedCountries.map((country, i) => <option key={i} value={country}>{country}</option>)}
+      <NativeSelect defaultValue="" style={{width:"300px",fontSize:"large", alignContent:"center"}} onChange={(e) => handleCountryChange(e.target.value)}>
+        <option value="" style={{alignContent:"center"}} >Global</option>
+        {fetchedCountries.map((country, i) => <option style={{alignContent:"center"}} key={i} value={country}>{country}</option>)}
       </NativeSelect>
     </FormControl>
   );
