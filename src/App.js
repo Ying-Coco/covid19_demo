@@ -12,6 +12,7 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
+          <Route path="/" component={Tracker}/>
           <Route path="/Tracker" component={Tracker} />
           <Route path="/Map" component={MapBox} />
           <Route path="/CountyState" component={CountyState} />
