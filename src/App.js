@@ -12,10 +12,10 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/" component={Tracker}/>
-          <Route path="/Tracker" component={Tracker} />
-          <Route path="/Map" component={MapBox} />
-          <Route path="/CountyState" component={CountyState} />
+          <Route exact path="/" component={Tracker}/>
+          <Route exact  path="/Tracker" component={Tracker} />
+          <Route exact path="/Map" component={MapBox} />
+          <Route exact path="/CountyState" component={CountyState} />
         </Switch>
       </div>
     </Router>

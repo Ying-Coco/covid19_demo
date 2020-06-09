@@ -28,7 +28,6 @@ function Nav() {
               <Link class="nav-link" to='/Map'>
                 <li class="nav-item">Map</li>
               </Link>
-              
             </ul> 
         </div>
         <div class="navbar-collapse collapse order-3 dual-collapse2" id="collapsibleNavbar">
